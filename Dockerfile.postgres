@@ -1,0 +1,4 @@
+FROM postgres:16
+
+# Optional: copy any seed/init SQL files into the image
+COPY init.sql /docker-entrypoint-initdb.d/
