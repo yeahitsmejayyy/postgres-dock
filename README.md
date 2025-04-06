@@ -34,7 +34,6 @@ A minimal, no-nonsense setup for running PostgreSQL in Docker. No magic, just co
 ```
 
 ## 🧼 Cleanup
-Done playing God with your data?
 ```bash
 docker-compose down -v
 ```
